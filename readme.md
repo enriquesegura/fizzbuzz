@@ -6,13 +6,13 @@ This is the traditional [fizzbuzz test](http://c2.com/cgi/wiki?FizzBuzzTest) wit
 ## Example
 ~~~php
 
-$fizzbuzz = new Fizzbuzz();
+$fizzbuzz = new EnriqueSegura\Fizzbuzz();
 
 $fizzbuzz->setFizz("three");
 $fizzbuzz->setBuzz("five");
 $fizzbuzz->setFizzBuzz("both");
 
-$fizzbuzz->output(100);
+echo $fizzbuzz->output(100);
 /*output:
 1
 2
