@@ -1,9 +1,6 @@
 {
     "name": "enriquesegura/fizzbuzz",
     "description": "Fizzbuzz kata.",
-    "require": {
-        "phpunit/phpunit": "~5.5"
-    },
     "require-dev": {
         "phpunit/phpunit": "~5.5"
     },
