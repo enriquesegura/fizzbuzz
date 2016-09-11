@@ -1,0 +1,21 @@
+{
+    "name": "enriquesegura/fizzbuzz",
+    "description": "Fizzbuzz kata.",
+    "require": {
+        "phpunit/phpunit": "~5.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.5"
+    },
+    "authors": [
+        {
+            "name": "Enrique Segura",
+            "email": "segura.gcc@gmail.com"
+        }
+    ],
+    "autoload": {
+                "psr-4": {
+                "EnriqueSegura\\": "src/"
+            }
+    }
+}
